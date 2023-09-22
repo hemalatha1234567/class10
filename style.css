@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 5px;
+    
+ 
+    background-color:rgb(235, 144, 212);
+    
+    
+
+}
+
+header {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+   color: rgb(42, 97, 106);
+   text-decoration: none;
+   font-size: 20px;
+   text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    transition: .4s;
+    color: #f9004d;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.hidden-content {
+    display: none;
+}
+.hari{
+    font-size: larger;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    font-size: 30px;
+}
+
+span{
+    color: #f9004d;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+h1{
+   text-decoration: underline;
+}
